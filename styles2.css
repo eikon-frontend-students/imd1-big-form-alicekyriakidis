@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(
+    to right,
+    #ffaee3 0%,
+    #ffaee3 33.33%,
+    #ffe6f6 33.33%,
+    #ffe6f6 100%
+  );
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+}
+.left-section {
+  width: 33.33%;
+  padding: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.left-section h1 {
+  font-size: 130px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  word-break: break-word;
+  line-height: 0.9;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
