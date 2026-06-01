@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIG FORM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="left-section">
+      <div class="left-content">
+        <h1>EPIC<br />GAME<br />JAM<br />2026</h1>
+        <div class="squares">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+      </div>
+    </div>
+    <div class="right-section">
+      <h2>SUBMIT YOUR GAME</h2>
+      <form action="page.html" method="get">
+        <h3>YOUR INFORMATION</h3>
+        <div>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            placeholder="your name"
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            placeholder="adress@mail.com"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="Subject">Team</label>
+          <input type="text" placeholder="your team" name="subject" required />
+        </div>
+
+        <div>
+          <label for="phone">Phone</label>
+          <input
+            type="tel"
+            placeholder="000 000 00 00"
+            id="phone"
+            name="phone"
+          />
+        </div>
+        <h3>GAME INFORMATION</h3>
+
+        <div>
+          <label for="gameTitle">Game Title</label>
+          <input
+            type="text"
+            placeholder="game title"
+            id="gameTitle"
+            name="gameTitle"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="gameType">Type of Game</label>
+          <input
+            type="text"
+            placeholder="type of game"
+            id="gameType"
+            name="gameType"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="platform">Platform</label>
+          <input
+            type="text"
+            placeholder="platform"
+            id="platform"
+            name="platform"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="gameLink">Link to the Game</label>
+          <input
+            type="url"
+            placeholder="https://example.com"
+            id="gameLink"
+            name="gameLink"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="message"
+            >Say more (description, how to play, controllers,...)</label
+          >
+          <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+  </body>
+</html>
