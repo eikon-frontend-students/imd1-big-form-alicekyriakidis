@@ -9,7 +9,12 @@
   <body>
     <div class="left-section">
       <div class="left-content">
-        <h1>EPIC<br />GAME<br />JAM<br />2026</h1>
+        <h1 class="shadow">
+          <span>EPIC</span>
+          <span>GAME</span>
+          <span>JAM</span>
+          <span>2026</span>
+        </h1>
         <div class="squares">
           <div class="square"></div>
           <div class="square"></div>
@@ -86,15 +91,15 @@
         </div>
 
         <div>
-          <label for="platform">Platform</label>
-          <input
-            type="text"
-            placeholder="platform"
-            id="platform"
-            name="platform"
-            required
-          />
-        </div>
+         <div>
+  <label for="platform">Platform</label>
+  <select id="platform" name="platform" required>
+    <option value="" disabled selected>Choose a platform</option>
+    <option value="pc">PC</option>
+    <option value="ps5">PS5</option>
+    <option value="switch">Nintendo Switch</option>
+  </select>
+</div>
 
         <div>
           <label for="gameLink">Link to the Game</label>
@@ -111,7 +116,7 @@
           <label for="message"
             >Say more (description, how to play, controllers,...)</label
           >
-          <textarea id="message" name="message" required></textarea>
+          <textarea id="message" name="message"></textarea>
         </div>
 
         <button type="submit">SUBMIT</button>
